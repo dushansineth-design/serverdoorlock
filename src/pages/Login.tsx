@@ -47,7 +47,7 @@ const Login = () => {
             <ShieldCheck className="h-8 w-8 text-white" />
           </div>
           <div>
-            <CardTitle className="text-2xl">Welcome to Smart Door Lock Server</CardTitle>
+            <CardTitle className="text-2xl">Welcome to PrimeEntry</CardTitle>
             <CardDescription>Sign in to manage your smart locks</CardDescription>
             <CardDescription className="mt-2 text-xs text-muted-foreground">
               Demo: admin / admin123
