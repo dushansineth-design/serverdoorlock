@@ -44,7 +44,7 @@ export function AppSidebar() {
             <ShieldCheck className="h-6 w-6 text-white" />
           </div>
           <div>
-            <h2 className="text-lg font-semibold text-foreground">AccessHub</h2>
+            <h2 className="text-lg font-semibold text-white">PrimeEntry</h2>
             <p className="text-xs text-muted-foreground">Smart Lock Manager</p>
           </div>
         </div>
