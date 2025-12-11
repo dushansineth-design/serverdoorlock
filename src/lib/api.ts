@@ -125,7 +125,7 @@ export const permissionsApi = {
 // Device API
 export const deviceApi = {
   sendCommand: async (payload: { door_id: string; command: 'lock' | 'unlock' }) => {
-    return apiRequest('/admin/door/command', {
+    return apiRequest('/api/admin/door/command', {
       method: 'POST',
       body: JSON.stringify(payload),
     });
